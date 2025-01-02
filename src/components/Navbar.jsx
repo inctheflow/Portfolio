@@ -5,7 +5,7 @@ import {
   SunIcon,
   MoonIcon,
 } from "@heroicons/react/outline";
-import logo from "../assets/logo2.svg";
+// import logo from "../assets/logo2.svg";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -56,10 +56,11 @@ function Navbar() {
     }
   }, [theme]);
   return (
-    <div className="main-nav fixed bg-[#f8ede30d] drop-shadow-3xl dark:border-[#24222e] border-[#dad2dc] border-b-2 w-screen z-10 h-20 mx-auto px-4 flex justify-between items-center dark:text-light text-dark">
-      <a href="">
+<div className="main-nav fixed bg-[#f8ede30d] drop-shadow-3xl dark:border-[#24222e] border-[#dad2dc] border-b-2 z-10 h-20 px-4 flex justify-center items-center dark:text-light text-dark mx-auto w-full">
+
+    {/* <a href="">
         <img src={logo} alt="Website Logo" height="120" width="75" />
-      </a>
+      </a> */}
       <ul className="hidden md:flex">
         <li className="nav-item p-4">
           <a href=""> Home</a>

@@ -25,13 +25,12 @@ function About() {
       className="pb-20 dark:bg-[#03001C] bg-light duration-700"
     >
       <h2 className="mx-auto z-100 text-6xl pt-48  md:pt-24 text-center text-black dark:text-white font-bold">
-        About
+        About Me
         <hr className="w-12 h-1 mx-auto my-6 bg-name rounded border-0"></hr>
       </h2>
 
       <h3 className="text-center dark:text-light text-dark mt-10 px-5 md:text-xl text-md font-bold">
-        "Design is not just what it looks like and feels like. Design is how it
-        works." - Steve Jobs
+      "First, solve the problem. Then, write the code."
       </h3>
       {/* Gradient Bg */}
       {/* <div className="flex justify-center">
@@ -48,22 +47,19 @@ function About() {
           </h2>
           <div className="dark:text-white text-black font-semibold py-6">
             <h3 className="">
-              I'm a frontEnd Web Developer based in Hyderabad, India.
+            I’m Aditya Raj Poudel, currently living in Baltimore, MD. I’m pursuing a bachelor’s degree in Computer Science, driven by my love for technology, mathematics, and problem-solving. Originally from Nepal, I bring a global perspective and a passion for learning to everything I do.
             </h3>
             <br />
             <h3 className="">
-              I have a passion for creating intuitive and visually appealing
-              user interfaces that enhance the overall user experience. I have a
-              strong foundation in HTML, CSS, and JavaScript, as well as
-              experience with popular front-end frameworks such as ReactJS
+            My ultimate goal is to become a game developer and create immersive,
+            meaningful experiences through interactive storytelling.
+            I’m fascinated by the intersection of creativity and technology 
+            and enjoy exploring new tools and techniques.
+            Whether it’s coding, designing, or solving complex problems,
+            I’m always eager to improve my skills.
             </h3>
             <br />
-            <h3 className="pb-1">
-              I have worked on a variety of projects, ranging from simple
-              brochure websites to complex e-commerce platforms, and have a
-              proven track record of delivering high-quality results on time and
-              within budget.
-            </h3>
+            
           </div>
         </div>
         <div data-aos="fade-up-right" className="text-center py-6 md:w-1/3">
@@ -80,11 +76,11 @@ function About() {
         <img src={javascript} width="120" height="80" alt="Javascript" />
         <img src={react} width="120" height="80" alt="React" />
         <img src={nodejs} width="120" height="40" alt="Node JS" />
-        <img src={bootstrap} width="120" height="80" alt="Bootstrap" />
-        <img src={tailwind} width="120" height="80" alt="Tailwind" />
+        {/* <img src={bootstrap} width="120" height="80" alt="Bootstrap" />
+        <img src={tailwind} width="120" height="80" alt="Tailwind" /> */}
         <img src={vscode} width="120" height="80" alt="VScode" />
-        <img src={xd} width="120" height="80" alt="Adobe xd" />
-        <img src={figma} width="120" height="80" alt="Figma" />
+        {/* <img src={xd} width="120" height="80" alt="Adobe xd" />
+        <img src={figma} width="120" height="80" alt="Figma" /> */}
         <img src={github} width="120" height="80" alt="Github" />
       </div>
     </section>

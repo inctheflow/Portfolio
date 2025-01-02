@@ -46,12 +46,10 @@ function Hero() {
       <div className="absolute inset-0 pt-48 mt-20">
         {/* {theme === "dark" ? ( */}
         <h1 className="name md:text-8xl text-6xl text-center text-style font-bold">
-          Abhishek
-        </h1>
+          Aditya        </h1>
         {/* ) : (
           <h1 className="name-light md:text-8xl text-6xl text-center text-style font-bold">
-            Abhishek
-          </h1>
+            Aditya          </h1>
         )} */}
 
         <h3 className="md:text-2xl text-lg pt-10 text-center dark:text-light text-dark font-bold">
@@ -61,9 +59,9 @@ function Hero() {
               loop: true,
               delay: 40,
               strings: [
-                "I'm a Web Developer . . .",
+                "I'm an aspiring Game Developer . . .",
                 "I'm a Tech Ethusiast . . .",
-                "I ❤️ Building asthetic & interactive apps",
+                "I ❤️ Maths",
               ],
             }}
           />
@@ -76,11 +74,11 @@ function Hero() {
             Get in touch
           </a>
         </div>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <div className="scroll-icon border-4 dark:border-light border-dark ex-1">
             <span className="wheel bg-dark dark:bg-white"></span>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

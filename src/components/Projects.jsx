@@ -58,21 +58,6 @@ function Projects() {
         </div>
       </div>
 
-     <div className="mx-5">
-        <h2 className="dark:text-light text-dark text-xl font-bold text-center pb-8">
-          HERE ARE MY GITHUB STATS
-        </h2>
-        <img
-          className="mx-auto"
-          src="https://camo.githubusercontent.com/74a034defb06bd849d23324c1fecd03c95799305245f47eb133ce86c776b5d74/68747470733a2f2f73747265616b2d73746174732e64656d6f6c61622e636f6d2f3f757365723d416268692d61726368323436267468656d653d746f6b796f6e6967687426686964655f626f726465723d74727565"
-          alt="Github Stats"
-        />
-     {/*     <img
-          className="mx-auto py-6"
-          src="https://raw.githubusercontent.com/Abhi-arch246/Abhi-arch246/571abad838f32f51f574e8b29d0a4ec577e753da/github-contribution-grid-snake.svg"
-          alt="Snake game using github contribution"
-        /> */}
-      </div>
     </section>
   );
 }
